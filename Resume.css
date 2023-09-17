@@ -5,7 +5,8 @@ body{
 }
 #body-header
 {
-  background-image: url("Assets/Images/Resume/CoverImage.png");
+  /* background-image: url("Assets/Images/Resume/CoverImage.png"); */
+  background:linear-gradient(to bottom right, #9933ff 0%, #6600cc 100%);;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -20,7 +21,7 @@ body{
 .horizontal-list li
 {
   display:inline-block;
-  margin:0px 10px 10px 0px;
+  margin:0px 20px 20px 0px;
 }
 .horizontal-list li a
 {
@@ -33,7 +34,7 @@ body{
     color:lightgrey;
     border-bottom:1px solid white;
 }
-.text center 
+.text-center 
 {
     text-align: center;
 }
