@@ -78,7 +78,8 @@ body{
 #about
 {
   height:auto;
-  width:auto;
+  width:100%;
+  position:relative;
 }
 #my-image
 {
@@ -93,4 +94,13 @@ body{
   height:100%;
   width:100%;
   border-radius:50%;
+}
+#about-container
+{
+  width:100vw;
+  height:auto;
+  display:flex;
+  overflow-wrap: normal;
+  border-radius:5px;
+  position:center;
 }
