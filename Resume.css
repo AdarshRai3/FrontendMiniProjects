@@ -5,12 +5,36 @@ body{
 }
 #body-header
 {
-  background-image: url("Assets/Images/Resume/Cover\ Image.jpg");
+  background-image: url("Assets/Images/Resume/CoverImage.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height:65vh;
 
 }
-
+.horizontal-list
+{
+  list-style: none;
+  padding-left: 0px;
+}
+.horizontal-list li
+{
+  display:inline-block;
+  margin:0px 10px 10px 0px;
+}
+.horizontal-list li a
+{
+    text-decoration: none;
+    color:white;
+    transition: color 0.5s, border-bottom 0.4s;
+}
+.horizontal-list li a:hover
+{
+    color:lightgrey;
+    border-bottom:1px solid white;
+}
+.text center 
+{
+    text-align: center;
+}
 
